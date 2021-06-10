@@ -76,7 +76,7 @@ class InputJarakDitempuh extends JarakDitempuh{
 	}
 
 	public function hasil(){
-		return $this->hitung;
+		return $this->hitung();
 	}
 }
 
