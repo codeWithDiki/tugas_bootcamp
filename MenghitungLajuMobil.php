@@ -127,7 +127,7 @@ switch ($program) {
 
 		$input = new InputJarakDitempuh();
 		$input->berikanInput($kecepatan, $waktu);
-		print_r($input->hasil())
+		print_r($input->hasil());
 		break;
 	case '2':
 		echo "\n\r PROGRAM MENGHITUNG WAKTU TEMPUH \n\r";
@@ -147,7 +147,7 @@ switch ($program) {
 
 		$input = new InputKecepatan();
 		$input->berikanInput($jarak, $waktu);
-		print_r($input->hasil())
+		print_r($input->hasil());
 		break;
 	
 	default:
