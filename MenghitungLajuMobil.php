@@ -84,11 +84,6 @@ class Kecepatan extends Perhitungan {
 	public $jarak;
 	public $waktu;
 
-	public function __construct($jarak, $waktu){
-		$this->jarak = $jarak;
-		$this->waktu = $waktu;
-	}
-
 	public function hitung(){
 		$output = "\n\r========Output========\n\r";
 		$hasil = $this->jarak / $this->waktu;
